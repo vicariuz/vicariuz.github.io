@@ -1,0 +1,93 @@
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+  
+}
+
+/* About me */
+
+#About-me {
+  height: 450px;
+  margin-top: 100px;
+  background-image: url("../img/bg-adrian.png");
+  background-size:  auto;
+  background-repeat: no-repeat;
+}
+
+.fs-4 {
+  margin-left: 15rem; 
+}
+.contenedor-about-me {
+  max-width: 700px; 
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #F12711, #F5AF19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 15rem;
+}
+
+.section-t1{
+  background-color: #374258;
+  color: #f3f3f3;
+  padding-top: 5rem;
+}
+
+.img-perfil{
+  height: 30rem;
+}
+.contenedor-about-me{
+  width: 60%;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 0px;
+  color: #373a3c;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+/* Footer */
+  footer i.fa-linkedin-in {
+    margin-left: 10px;
+  }
+  
+.mb-0 {
+  font-size: 1.5rem;
+}
+
+header{
+  background-color:color: #f3f3f3;
+}
+
+.botonform{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.display-3{
+  text-align: center;
+}
